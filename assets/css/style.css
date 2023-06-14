@@ -26,10 +26,10 @@ li:nth-child(even) a {
     background-color: black;
 }
 
-.sosmed a{
+.sosmed a:hover{
     color: white;
     background-color: black;
 }
-.sosmed a:visited {
+.sosmed a[target="_blank"]:visited {
     color: darkgrey;
 }

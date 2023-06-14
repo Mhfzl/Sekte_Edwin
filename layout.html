@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        a {
+            background-color: pink;
+            text-decoration: none;
+        }
+
+        .container {
+            border: 1px solid;
+            width: 80%;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        img {
+            margin: 10px;
+            float: left;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(248, 0, 41);
+            color: white;
+            text-align: center;
+            line-height: 100px;
+            font-size: 100px;
+            box-sizing: border-box;
+            margin: auto;
+
+        }
+
+        .box:nth-child(odd) {
+            background-color: lawngreen;
+        }
+
+        .box:nth-child(2) {
+            position: relative;
+            top: 10px;
+            left: 200px;
+        }
+
+        .box:nth-child(1) {
+            position: absolute;
+            top: 0px;
+            left: 0px
+        }
+        .box:nth-child(3){
+            position: fixed;
+            top: 30px;
+            left :0px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">link1 gituhub</a>
+    <a href="#">Link2</a>
+    <div>
+        <img src="./assets/image/img.jpg" alt="img" width="300px">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa aperiam labore, nesciunt similique, et quis,
+            natus necessitatibus animi corrupti omnis expedita totam mollitia iste. Et molestias repellat tempora in ea
+            possimus maiores deserunt optio repellendus totam voluptatum laboriosam magnam ut ex autem id distinctio qui
+            aliquam, laborum ratione facere sit recusandae! Dolores quam dignissimos accusantium vel repellat harum non
+            placeat deserunt. Deserunt hic nihil quae odit dolor repellat repellendus, ipsum blanditiis nulla quibusdam
+            earum, voluptatum eveniet beatae sint dolore! Consectetur molestiae dicta iusto vel possimus ratione, facere
+            eaque ex totam cum aliquam sapiente mollitia eveniet! Eligendi quia dolor perferendis quaerat perspiciatis
+            atque laborum eveniet placeat consectetur iure sit facilis, inventore sunt aliquid corrupti saepe incidunt
+            minus maxime cum vel fugit. Necessitatibus sit possimus corrupti. Error et corporis quas ullam id, sit
+            tenetur possimus atque dolorum repellat magni dolorem rerum veritatis odit consectetur reiciendis sapiente
+            quod quidem nam in aut totam dolores officiis ipsa? Obcaecati voluptatum magni officia ipsam? Ex fugiat rem
+            nisi odio facilis doloremque dolorum ullam modi laudantium esse maiores, enim nemo sint odit cupiditate,
+            consequuntur, libero numquam dolor possimus nesciunt. Impedit eos aliquam quas voluptatum. Saepe
+            consequuntur vitae officia ad unde omnis, iste amet harum quasi ipsa praesentium minus adipisci nulla,
+            suscipit et aperiam quibusdam provident laborum commodi similique veritatis! Ullam consequuntur veniam culpa
+            ipsa magni, voluptas eaque consectetur laudantium ipsum ex rem quasi illum laboriosam quibusdam neque
+            eligendi dolorem doloribus libero assumenda atque ut enim tempore? Velit voluptates expedita praesentium
+            explicabo, ad deleniti pariatur ipsam deserunt facere. Rem dolores nesciunt voluptatum maiores mollitia
+            ipsam sequi expedita! Iste expedita esse qui cupiditate alias. Voluptates perspiciatis, ex voluptatibus
+            aliquam, ipsa, error obcaecati consequatur qui placeat numquam eligendi id atque unde magni odit illum
+            laudantium! Deleniti reprehenderit tenetur, odio beatae magni, esse quas iure similique, soluta porro fuga
+            id iusto?</p>
+    </div>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="clear"></div>
+    </div>
+</body>
+
+</html>
